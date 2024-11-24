@@ -1,0 +1,250 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  /*background-image: url("rocks-bg.png");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/*
+.center {
+  width: 800px;
+  padding: 2%;
+  margin: 100px auto;
+  background: rgba(
+    0,
+    150,
+    178,
+    0.75
+  ); /*this uses opacity of 75% for the background color*/
+/*text-align: center;
+  border: 4px dashed white;
+}*/
+
+#logo {
+  margin-top: 20px;
+  margin-left: 30px;
+  /*border: 2px dashed rgb(0, 0, 0);*/
+  text-align: center;
+  width: 200px;
+}
+
+h1 {
+  /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2em;
+  margin: 0px auto 10px auto;
+  margin-left: 30px;
+  color: #83ce64;
+}
+
+h2 {
+  /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.4;
+  color: #000000;
+  padding: 0px 0px;
+  margin: 0px auto 25px auto;
+  margin-left: 30px;
+}
+
+p {
+  /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+  font-family: "Poppins", sans-serif;
+  font-style: light;
+  font-size: 0.8em;
+  line-height: 1.6;
+  color: #000000;
+  margin-left: 30px;
+}
+
+nav {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2 em;
+  width: 400px;
+  margin: 0 auto;
+  /*border: dashed #97ef72;*/
+  border-width: 3px 0;
+  /*text-align: center;*/
+  position: left;
+  left: 100px;
+
+  margin-top: 1em;
+  float: left;
+}
+
+nav li {
+  /*display: inline;*/
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: black;
+  background: #97ef72;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
+
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  width: 60px;
+  height: 100px;
+}
